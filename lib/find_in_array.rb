@@ -1,10 +1,12 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
+  found = nil
   for i in array
-  if i == value_to_find
-    return i
-  else 
-    return false
+   
+    if i == value_to_find
+      found = i
+    end
+  
   end
-end
+  found
 end
